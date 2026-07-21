@@ -2,15 +2,15 @@
 
 ### Tier Standard
 
-**Tier 1** – Almost Every Game Developer Should Review
+[**Tier 1**](#tier-1) – Almost Every Game Developer Should Review
 
-**Tier 2** – Frequently Asked Depending on Position
+[**Tier 2**](#tier-2) – Frequently Asked Depending on Position
 
-**Tier 3** – Specialized Fields
+[**Tier 3**](#tier-3) – Specialized Fields
 
-**Tier 4** – Project Evaluation
+[**Tier 4**](#tier-4--project-evaluation) – Project Evaluation
 
-**Tier 5** – Engineering Thinking
+[**Tier 5**](#tier-5--engineering-thinking) – Engineering Thinking
 
 ***
 
