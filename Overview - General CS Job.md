@@ -1,19 +1,16 @@
 # Overview on CS Common Topics/Must Know Concepts
 ### Tier standard:
-- Tier 1: Almost Every CS Graduate Should Review.
+- [Tier 1](#tier-1): Almost Every CS Graduate Should Review.
 
-- Tier 2: Frequently Asked Depending on Position.
+- [Tier 2](#tier-2): Frequently Asked Depending on Position.
 
-
-- Tier 3: Depends on Specialty.
-
+- [Tier 3](#tier-3): Depends on Specialty.
 
   _**(Advanced)**_
 
-- Tier 4: Project Evaluation.
+- [Tier 4](#tier-4): Project Evaluation.
 
-
-- Tier 5: Engineering Thinking.
+- [Tier 5](#tier-5): Engineering Thinking.
 
 ***
 
@@ -277,6 +274,8 @@ Design Pattern
 
 # Tier 2
 
+Frequently Asked Depending on Position.
+
 ## Object-Oriented Design
 
 ### Common Topics
@@ -390,6 +389,8 @@ Core dump
 ***
 
 # Tier 3
+
+Depends on Specialty.
 
 ## Embedded System
 
@@ -549,7 +550,9 @@ Container
 
 ***
 
-# Tier 4 (Project Evaluation)
+# Tier 4
+
+###  Project Evaluation
 
 Many interviewers spend more time on projects than coursework. They may ask:
 
@@ -567,7 +570,9 @@ These questions often reveal more about your practical ability than textbook kno
 
 ***
 
-# Tier 5 (Engineering Thinking)
+# Tier 5 
+
+### Engineering Thinking
 
 Strong interviewers also assess how you think, not just what you know.
 
