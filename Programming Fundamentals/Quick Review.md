@@ -182,7 +182,7 @@ Common primitive data types include:
 -   **Boolean** – Conditions, flags, decision making.
 -   **Character** – Processing individual letters or symbols.
 
-### Comparison <a id="Primitive v.s. Non-primitive"></a>
+### Comparison <a id="primitive-comp-nonprimitive"></a>
 
 | Primitive Data Types | Non-Primitive Data Types |
 | --- | --- |
@@ -277,3 +277,7 @@ Some common examples include:
 -   **Object/Class** – Representing users, products, vehicles, or game characters.
 -   **Map/Dictionary** – Associating keys with values.
 -   **Set** – Storing unique elements.
+
+### Comparison
+
+[**Check primitive data types**](#primitive-comp-nonprimitive)
