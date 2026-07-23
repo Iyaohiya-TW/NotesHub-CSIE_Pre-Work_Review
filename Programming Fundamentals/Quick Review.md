@@ -1,6 +1,6 @@
 # Table of Content
 
-### Core Topic
+### Core Topics
 
 [Variables](#variables)
 1. [Variables](#variables)
@@ -885,6 +885,18 @@ This provides flexibility but can also produce unexpected behavior if the progra
 | Few implicit conversions | Many implicit conversions |
 | More predictable behavior | More convenient but potentially surprising |
 | Prioritizes safety | Prioritizes flexibility |
+
+### Things People Often Confuse
+
+Check [**_Dynamic Typing vs Weak Typing_**](#dynamic-typing-vs-weak-typing)
+
+### Things You MUST Remember
+
+-   **Strong vs Weak** asks **how strictly** type rules are enforced.
+-   Strong typing generally produces more predictable and maintainable code.
+-   Weak typing provides greater flexibility but increases the risk of unexpected behavior due to implicit type coercion.
+-   **Strong/weak typing** has no direct relation with **static/dynamic typing**.
+-   **Strong typing does not mean "no implicit conversions."** It means implicit conversions are generally limited to those that are safe and unsurprising.
 
 ***
 
