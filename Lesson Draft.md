@@ -1,3 +1,4 @@
+## Quick Review Structure
 ```Markdown
 ## Topic Name
 
@@ -23,3 +24,38 @@
 
 ### One-Minute Summary
 ```
+### 
+#### Topic Name
+
+#### One Sentence Definition
+Definition.
+
+#### Why Do We Need It?
+Context/Motivations.
+
+#### Core Idea
+Mechanism.
+
+#### Key Characteristics
+Clue to bring up this Tech.
+
+#### Advantages
+Advantages.
+
+#### Disadvantages
+disadvantages.
+
+#### Common Use Cases
+Use cases.
+
+#### Comparison
+Comparison.
+
+#### Things People Often Confuse
+Clear understanding.
+
+#### Things You MUST Remember
+Common blindspot.
+
+#### One-Minute Summary
+AT LEAST Remember this.
