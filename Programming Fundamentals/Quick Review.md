@@ -48,7 +48,7 @@
 [Resource Lifetime]()
 
 
-⏬ [To bottom](#-bottom-link-anchor)
+⏬ [To bottom](#-bottom-link-anchor) (or use Ctrl + End)
 ***
 
 # Variables
@@ -765,15 +765,129 @@ A language can be:
 
 ### Why Do We Need It?
 
-Programs frequently work with values of different types, such as numbers, strings, and Booleans. A language must decide **how strictly** it should enforce type compatibility when these values interact.
+A language must decide **how strictly** it should enforce type compatibility when these values interact.
 
 Strong and weak typing represent two different philosophies:
 
 -   Should the language **protect the programmer** from invalid operations?
 -   Or should it **be flexible** and automatically convert values whenever possible?
 
+### Core Idea
+
+The key difference is **how strictly a language enforces its type system**.
+
+#### Strong Typing
+
+A strongly typed language prevents operations between incompatible types unless the programmer explicitly converts them.
+
+For example:
+
+```
+Integer + String
+```
+
+is considered invalid unless an explicit conversion is performed.
+
+The language prioritizes **correctness and type safety** over convenience.
+
+Examples:
+
+-   C#
+-   Java
+-   Python
+-   Rust
+-   Go
+
+> **Note:** Some strongly typed languages still perform safe implicit conversions (such as `int` → `double`). Strong typing does **not** mean _no_ implicit conversions—it means the language avoids unsafe or surprising ones.
+
+#### Weak Typing
+
+A weakly typed language performs more implicit conversions automatically.
+
+For example, JavaScript allows operations such as:
+
+```
+"5" - 2      // 3
+"5" + 2      // "52"
+true + 1     // 2
+```
+
+Rather than rejecting the operation, the language attempts to convert one or both operands.
+
+This provides flexibility but can also produce unexpected behavior if the programmer does not fully understand the conversion rules.
+
+### Key Characteristics
+
+#### Strong Typing
+
+-   Strict enforcement of type rules.
+-   Fewer implicit conversions.
+-   More compile-time or runtime type safety.
+-   Invalid operations usually produce errors.
+
+#### Weak Typing
+
+-   More automatic type coercion.
+-   Greater flexibility.
+-   Allows operations between different types.
+-   May produce surprising or unintuitive results.
+
+### Advantages
+
+#### Strong Typing
+
+-   Makes code behavior more predictable.
+-   Easier to maintain large codebases.
+-   Encourages explicit and readable code.
+
+#### Weak Typing
+
+-   Less code required for simple operations.
+-   Convenient for scripting and quick prototypes.
+-   Can simplify interaction with loosely structured data.
+
+### Disadvantages
+
+#### Strong Typing
+
+-   Requires more explicit conversions.
+-   Can feel restrictive when experimenting.
+
+#### Weak Typing
+
+-   Hidden conversions may introduce bugs.
+-   Code can become harder to reason about.
+-   Unexpected behaviors are easier to create.
+-   More difficult to debug when implicit coercion occurs.
+
+### Common Use Cases
+
+#### Strong Typing
+
+-   Enterprise software
+-   Backend systems
+-   Financial applications
+-   Large codebases
+-   Safety-critical software
+
+#### Weak Typing
+
+-   Scripting
+-   Browser programming (historically JavaScript)
+-   Rapid prototyping
+-   Small automation tasks
+
+### Comparison
+
+| Strong Typing | Weak Typing |
+| --- | --- |
+| Strict type enforcement | Flexible type enforcement |
+| Few implicit conversions | Many implicit conversions |
+| More predictable behavior | More convenient but potentially surprising |
+| Prioritizes safety | Prioritizes flexibility |
+
 ***
 
 > [!INFO]   Navigation tool
 > #####  ⚓ Bottom Link Anchor
-> ⏫ [To top](#table-of-content)
+> ⏫ [To top](#table-of-content) (or use Ctrl + Home)
