@@ -1,4 +1,5 @@
 ## Quick Review Structure
+
 ```Markdown
 ## Topic Name
 
@@ -24,8 +25,9 @@
 
 ### One-Minute Summary
 ```
-### 
+
 #### Topic Name
+With some overview/introduction.
 
 #### One Sentence Definition
 Definition.
