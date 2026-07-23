@@ -9,8 +9,8 @@
 1.   [Primitive Data Types](#1-primitive-basic-data-types)
 2.   [Non-Primitive Data Types](#2-non-primitive-data-types)
 3.   [Numeric Types](#3-numeric-types)
-4.   [Boolean Type]()
-5.   [Character & String]()
+4.   [Boolean Type](#4-boolean-type)
+5.   [Character & String](#5-character--string)
 6.   [Static vs Dynamic Typing]()
 7.   [Strong vs Weak Typing]()
 8.   [Type Inference]()
@@ -48,7 +48,7 @@
 [Resource Lifetime]()
 
 
-⏬ [To bottom](#bottom-link-anchor)
+⏬ [To bottom](#-bottom-link-anchor)
 ***
 
 # Variables
@@ -393,6 +393,100 @@ Increasing one often requires sacrificing the other or using more memory.
 -   Every numeric type has a limited **range** and **precision**.
 -   Choose the numeric type based on the requirements of the problem, not simply because it "works."
 -   Never compare floating-point values for exact equality unless you understand the implications; use a tolerance (epsilon) when appropriate.
+
+## 4. Boolean Type
+
+### One Sentence Definition
+
+The **Boolean type** is a data type that represents one of two logical values: **`true`** or **`false`**.
+
+### Why Do We Need It?
+
+Programs constantly make decisions:  Boolean type provides a simple and standardized way to represent these **yes/no**, **on/off**, or **true/false** conditions.
+
+Without Booleans, programs would have to rely on arbitrary values (such as `0` and `1`) to represent logical states, making code **less readable** and more **error-prone**.
+
+### Core Idea
+
+A Boolean value answers a question with only two possible outcomes:
+
+-   **`true`** – The condition is satisfied.
+-   **`false`** – The condition is not satisfied.
+
+Booleans are typically produced by:
+
+-   Comparison operations (`==`, `>`, `<`, etc.)
+-   Logical operations (`AND`, `OR`, `NOT`)
+-   Functions that return success/failure or yes/no results
+
+### Key Characteristics
+
+-   Has only two possible values: `true` and `false`.
+-   Usually occupies very little memory (implementation varies by language).
+-   
+### Advantages
+
+-   Makes program logic clear and easy to understand.
+-   Improves code readability compared to using numeric flags.
+
+### Disadvantages
+N/A
+
+### Common Use Cases
+
+-   Checking conditions in `if` statements.
+-   Control signal loops (`while`, `for`).
+-   Indicating success or failure of an operation.
+-   Tracking program states (e.g., `isRunning`, `isVisible`, `hasPermission`).
+
+### Comparison
+N/A
+
+### Things People Often Confuse
+
+##### Boolean vs Bit
+
+A **Boolean** is a programming language concept representing a logical value.
+
+A **bit** is the smallest unit of data in computer hardware.
+
+Although a Boolean may be stored using one bit (or more, depending on the language and hardware), the two concepts are not the same.
+
+##### Boolean vs Truthy/Falsy Values
+
+Many languages (such as Python and JavaScript) allow non-Boolean values to be treated as `true` or `false`.
+
+For example:
+
+```
+0        → false
+1        → true
+""       → false
+"Hello"  → true
+```
+
+However, these values are **not** Booleans—they are values that can be **implicitly converted** to a Boolean.
+
+Languages like Java and C# generally require an actual Boolean value in conditional statements.
+
+### Things You MUST Remember
+
+-   A Boolean can only be **`true`** or **`false`**.
+-   Booleans are used for **decision-making**, not calculations.
+-   Comparison operations produce Boolean values.
+-   Logical operators work on Boolean values.
+-   Be aware that some languages support **truthy/falsy** conversions while others require explicit Boolean values.
+
+### One-Minute Summary
+
+The Boolean type represents one of two logical values: `true` or `false`. It is the foundation of decision-making in programming and is used extensively in conditional statements, loops, and logical expressions. Boolean values are typically produced by comparison operations and manipulated using logical operators such as AND, OR, and NOT. While some programming languages automatically treat certain values as truthy or falsy, the Boolean type itself always represents a clear logical state, making programs easier to read, understand, and control.
+
+## 5. Character & String
+
+### One Sentence Definition
+
+A **character** represents a single text symbol, while a **string** represents an ordered sequence of one or more characters used to store and manipulate text.
+
 
 ***
 
