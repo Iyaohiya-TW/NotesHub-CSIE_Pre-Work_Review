@@ -43,7 +43,7 @@ Help indentify the concept/tech. Clues for when to use it.
 Advantages.
 
 #### Disadvantages
-disadvantages.
+Disadvantages.
 
 #### Common Use Cases
 Use cases.
@@ -52,7 +52,7 @@ Use cases.
 Comparison.
 
 #### Things People Often Confuse
-Run through common blindspot.
+Run through common blindspots.
 
 #### Things You MUST Remember
-AT LEAST run through this id you don't have time.
+AT LEAST run through this if you don't have time.
