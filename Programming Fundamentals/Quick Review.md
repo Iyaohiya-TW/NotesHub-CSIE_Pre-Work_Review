@@ -3,19 +3,19 @@
 ### Core Topic
 
 [Variables](#variables)
-1. Variables
+1. [Variables](#variables)
 
 [Data Types](#data-types)
-1.   Primitive Data Types
-2.   Non-Primitive Data Types
-3.   Numeric Types
-4.   Boolean Type
-5.   Character & String
-6.   Static vs Dynamic Typing
-7.   Strong vs Weak Typing
-8.   Type Inference
-9.   Type Conversion
-10.   Null / None / Nil
+1.   [Primitive Data Types](#primitive-basic-data-types)
+2.   [Non-Primitive Data Types]()
+3.   [Numeric Types]()
+4.   [Boolean Type]()
+5.   [Character & String]()
+6.   [Static vs Dynamic Typing]()
+7.   [Strong vs Weak Typing]()
+8.   [Type Inference]()
+9.   [Type Conversion]()
+10.   [Null / None / Nil]()
 
 [Functions]()
 
@@ -47,6 +47,8 @@
 
 [Resource Lifetime]()
 
+
+[To bottom](#bottom-link-anchor)
 ***
 
 # Variables
@@ -182,7 +184,7 @@ Common primitive data types include:
 -   **Boolean** – Conditions, flags, decision making.
 -   **Character** – Processing individual letters or symbols.
 
-### Comparison <a id="primitive-comp-nonprimitive"></a>
+### Comparison
 
 | Primitive Data Types | Non-Primitive Data Types |
 | --- | --- |
@@ -280,4 +282,37 @@ Some common examples include:
 
 ### Comparison
 
-[**Check primitive data types**](#primitive-comp-nonprimitive)
+[**Check primitive data types**](#comparison-1)
+
+### Things People Often Confuse
+
+##### Non-Primitive vs Data Structure
+
+Not every non-primitive type is a **data structure**.
+
+For example:
+
+-   `String` → Non-primitive type, but not usually considered a data structure in CS.
+-   `Array`, `List`, `Map` → Both non-primitive types **and** data structures.
+
+A data structure focuses on **how data is organized**, while a non-primitive type is a broader programming concept.
+
+### Things You MUST Remember
+
+-   Non-primitive data types exist to represent **more complex information** than primitive types can.
+-   They often contain **multiple values**, **relationships**, or **behavior**.
+-   The exact set of non-primitive types differs between programming languages.
+
+### One-Minute Summary
+
+Non-primitive data types are higher-level types used to represent complex data that cannot be expressed by a single primitive value. Examples include strings, arrays, objects, lists, maps, and sets. They often combine multiple primitive values into meaningful structures and may also include behavior through methods. While they require more memory and are generally more complex than primitive types, they make it possible to model real-world problems effectively and form the foundation of modern software development.
+
+## 3.   Numeric Types
+
+
+
+***
+
+> [!INFO]   Editing tool
+> ##### Bottom Link Anchor
+> [To top](#table-of-content)
