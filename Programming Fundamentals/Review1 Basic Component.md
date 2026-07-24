@@ -29,15 +29,6 @@
 9. [Recursion](#9-recursion)
 10. [First-Class & Higher-Order Functions](#10-first-class--higher-order-functions)
 
-
-[Scope](#scope)
-1. [Variable Scope](#1-variable-scope)
-2. [Variable Lifetime](#2-variable-lifetime)
-3. [Namespace Scope](#3-namespace-scope)
-4. [Lexical (Static) Scope vs Dynamic Scope](#4-lexical-static-scope-vs-dynamic-scope)
-5. [Variable Shadowing](#5-variable-shadowing)
-6. [Closures](#6-closures)
-
 [Recursion](#recursion)
 1. [Recursion](#1-recursion)
 2. [Base Case & Recursive Case](#2-base-case--recursive-case)
