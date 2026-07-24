@@ -84,3 +84,12 @@
 5. [Deterministic vs Non-Deterministic Destruction](#5-deterministic-vs-non-deterministic-destruction)
 6. [Smart Pointers / Reference Counting](#6-smart-pointers--reference-counting)
 7. [Disposable Resources (C# `IDisposable`, Java `try-with-resources`)](#7-disposable-resources)
+
+⏬ [To bottom](#-bottom-link-anchor) (or use Ctrl + End)
+
+***
+***
+
+> [!INFO]   Navigation tool
+> #####  ⚓ Bottom Link Anchor
+> ⏫ [To top](#table-of-content) (or use Ctrl + Home)
