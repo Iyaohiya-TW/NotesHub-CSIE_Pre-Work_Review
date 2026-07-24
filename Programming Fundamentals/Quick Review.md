@@ -6,46 +6,156 @@
 1. [Variables](#variables)
 
 [Data Types](#data-types)
-1.   [Primitive Data Types](#1-primitive-basic-data-types)
-2.   [Non-Primitive Data Types](#2-non-primitive-data-types)
-3.   [Numeric Types](#3-numeric-types)
-4.   [Boolean Type](#4-boolean-type)
-5.   [Character & String](#5-character--string)
-6.   [Static vs Dynamic Typing](#6-static-vs-dynamic-typing)
-7.   [Strong vs Weak Typing](#7-strong-vs-weak-typing)
-8.   [Type Inference](#8-type-inference)
-9.   [Type Conversion]()
-10.   [Null / None / Nil]()
+1. [Primitive Data Types](#1-primitive-data-types)
+2. [Non-Primitive Data Types](#2-non-primitive-data-types)
+3. [Numeric Types](#3-numeric-types)
+4. [Boolean Type](#4-boolean-type)
+5. [Character & String](#5-character--string)
+6. [Static vs Dynamic Typing](#6-static-vs-dynamic-typing)
+7. [Strong vs Weak Typing](#7-strong-vs-weak-typing)
+8. [Type Inference](#8-type-inference)
+9. [Type Conversion](#9-type-conversion)
+10. [Null / None / Nil](#10-null--none--nil)
 
-[Functions]()
+[Functions](#functions)
+1. [Functions](#1-functions)
+2. [Parameters vs Arguments](#2-parameters-vs-arguments)
+3. [Return Values](#3-return-values)
+4. [Function Signature](#4-function-signature)
+5. [Function Overloading](#5-function-overloading)
+6. [Pass by Value vs Pass by Reference](#6-pass-by-value-vs-pass-by-reference)
+7. [Variable Scope in Functions](#7-variable-scope-in-functions)
+8. [Pure vs Impure Functions](#8-pure-vs-impure-functions)
+9. [Recursion](#9-recursion)
+10. [First-Class & Higher-Order Functions](#10-first-class--higher-order-functions)
 
-[Scope]()
 
-[Recursion]()
+[Scope](#scope)
+1. [Variable Scope](#1-variable-scope)
+2. [Variable Lifetime](#2-variable-lifetime)
+3. [Namespace Scope](#3-namespace-scope)
+4. [Lexical (Static) Scope vs Dynamic Scope](#4-lexical-static-scope-vs-dynamic-scope)
+5. [Variable Shadowing](#5-variable-shadowing)
+6. [Closures](#6-closures)
 
-[Arrays]()
+[Recursion](#recursion)
+1. [Recursion](#1-recursion)
+2. [Base Case & Recursive Case](#2-base-case--recursive-case)
+3. [Call Stack](#3-call-stack)
+4. [Direct vs Indirect Recursion](#4-direct-vs-indirect-recursion)
+5. [Tail Recursion](#5-tail-recursion)
+6. [Iteration vs Recursion](#6-iteration-vs-recursion)
+7. [Memoization](#7-memoization)
 
-[Strings]()
+[Arrays](#arrays)
+1. [Arrays](#1-arrays)
+2. [Array Indexing](#2-array-indexing)
+3. [Multidimensional Arrays](#3-multidimensional-arrays)
+4. [Jagged Arrays](#4-jagged-arrays)
+5. [Array Traversal](#5-array-traversal)
+6. [Array Operations](#6-array-operations)
+7. [Arrays vs Linked Lists](#7-arrays-vs-linked-lists)
 
-[Pointers / References]()
+[Strings](#strings)
+1. [Strings](#1-strings)
+2. [Character Encoding](#2-character-encoding)
+3. [String Immutability](#3-string-immutability)
+4. [Common String Operations](#4-common-string-operations)
+5. [String Comparison](#5-string-comparison)
+6. [String Formatting](#6-string-formatting)
+7. [StringBuilder / Mutable Strings](#7-stringbuilder--mutable-strings)
 
-[Memory Management]()
+[Pointers / References](#pointers--references)
+1. [Pointers](#1-pointers)
+2. [References](#2-references)
+3. [Pointer Arithmetic](#3-pointer-arithmetic)
+4. [Null Pointer vs Null Reference](#4-null-pointer-vs-null-reference)
+5. [Dangling Pointers](#5-dangling-pointers)
+6. [Wild Pointers](#6-wild-pointers)
+7. [Smart Pointers](#7-smart-pointers)
 
-[Object-Oriented Programming]()
+[Memory Management](#memory-management)
+1. [Memory Model](#1-memory-model)
+2. [Stack vs Heap](#2-stack-vs-heap)
+3. [Memory Allocation](#3-memory-allocation)
+4. [Memory Deallocation](#4-memory-deallocation)
+5. [Garbage Collection](#5-garbage-collection)
+6. [Reference Counting](#6-reference-counting)
+7. [Memory Leaks](#7-memory-leaks)
+8. [Dangling References](#8-dangling-references)
+9. [Ownership & Borrowing](#9-ownership--borrowing)
+10. [Copy vs Move Semantics](#10-copy-vs-move-semantics)
 
-[Interfaces]()
+[Object-Oriented Programming](#object-oriented-programming)
+1. [Object-Oriented Programming (OOP)](#1-object-oriented-programming-oop)
+2. [Classes & Objects](#2-classes--objects)
+3. [Encapsulation](#3-encapsulation)
+4. [Abstraction](#4-abstraction)
+5. [Inheritance](#5-inheritance)
+6. [Polymorphism](#6-polymorphism)
+7. [Composition vs Inheritance](#7-composition-vs-inheritance)
+8. [Access Modifiers](#8-access-modifiers)
+9. [Constructors & Destructors](#9-constructors--destructors)
+10. [Method Overriding](#10-method-overriding)
+11. [Abstract Classes](#11-abstract-classes)
 
-[Generic Programming]()
+[Interfaces](#interfaces)
+1. [Interfaces](#1-interfaces)
+2. [Interface vs Abstract Class](#2-interface-vs-abstract-class)
+3. [Interface Segregation Principle (ISP)](#3-interface-segregation-principle-isp)
+4. [Dependency Inversion Principle (DIP)](#4-dependency-inversion-principle-dip)
+5. [Dependency Injection (DI)](#5-dependency-injection-di)
+6. [Mocking & Testing](#6-mocking--testing)
 
-[Lambda / Delegates (language dependent)]()
+[Generic Programming](#generic-programming)
+1. [Generic Programming](#1-generic-programming)
+2. [Generic Types](#2-generic-types)
+3. [Generic Functions](#3-generic-functions)
+4. [Generic Constraints](#4-generic-constraints)
+5. [Compile-Time vs Runtime Polymorphism](#5-compile-time-vs-runtime-polymorphism)
+6. [Templates vs Generics](#6-templates-vs-generics)
 
-[Exception Handling]()
+[Lambda / Delegates (Language Dependent)](#lambda--delegates-language-dependent)
+1. [Delegates](#1-delegates)
+2. [Lambda Expressions](#2-lambda-expressions)
+3. [Anonymous Functions](#3-anonymous-functions)
+4. [Closures](#4-closures)
+5. [Function Pointers vs Delegates](#5-function-pointers-vs-delegates)
+6. [Events (C#)](#6-events-c)
 
-[Const Correctness]()
+[Exception Handling](#exception-handling)
+1. [Exceptions](#1-exceptions)
+2. [Throwing Exceptions](#2-throwing-exceptions)
+3. [Handling Exceptions](#3-handling-exceptions)
+4. [Exception Propagation (Stack Unwinding)](#4-exception-propagation-stack-unwinding)
+5. [Custom Exceptions](#5-custom-exceptions)
+6. [Checked vs Unchecked Exceptions](#6-checked-vs-unchecked-exceptions)
+7. [Exception Handling Best Practices](#7-exception-handling-best-practices)
 
-[Static vs Dynamic Allocation]()
+[Const Correctness](#const-correctness)
+1. [Const Correctness](#1-const-correctness)
+2. [Compile-Time Constants vs Runtime Constants](#2-compile-time-constants-vs-runtime-constants)
+3. [Immutable Objects](#3-immutable-objects)
+4. [Const References (C++)](#4-const-references-c)
+5. [Const Member Functions (C++)](#5-const-member-functions-c)
+6. [Readonly vs Const (C#)](#6-readonly-vs-const-c)
 
-[Resource Lifetime]()
+[Static vs Dynamic Allocation](#static-vs-dynamic-allocation)
+1. [Memory Allocation](#1-memory-allocation)
+2. [Static Allocation](#2-static-allocation)
+3. [Dynamic Allocation](#3-dynamic-allocation)
+4. [Stack vs Heap](#4-stack-vs-heap)
+5. [Memory Leaks](#5-memory-leaks)
+6. [Allocation Strategies Comparison](#6-allocation-strategies-comparison)
+
+[Resource Lifetime](#resource-lifetime)
+1. [Resource Lifetime](#1-resource-lifetime)
+2. [Resource Acquisition and Release](#2-resource-acquisition-and-release)
+3. [RAII (C++)](#3-raii-c)
+4. [Garbage Collection](#4-garbage-collection)
+5. [Deterministic vs Non-Deterministic Destruction](#5-deterministic-vs-non-deterministic-destruction)
+6. [Smart Pointers / Reference Counting](#6-smart-pointers--reference-counting)
+7. [Disposable Resources (C# `IDisposable`, Java `try-with-resources`)](#7-disposable-resources)
 
 
 ⏬ [To bottom](#-bottom-link-anchor) (or use Ctrl + End)
@@ -978,7 +1088,281 @@ var employees = new();
 | --- | --- |
 | Programmer specifies the type | Compiler determines the type |
 
+### Things People Often Confuse
 
+##### [_Check Static Typing vs Type Inference_](#static-typing-vs-type-inference)
+
+##### _Type Inference vs Implicit Conversion_
+
+Type inference determines **what the variable's type is**.
+
+Implicit conversion changes **a value from one type to another**.
+
+For example:
+
+```
+var number = 10;
+```
+
+Type inference determines that `number` is an `int`.
+
+Later:
+
+```
+double result = number;
+```
+
+This is an **implicit conversion**, not type inference.
+
+##### _Type Inference vs Type Deduction_
+
+These terms are often used interchangeably.
+
+Some languages and documentation prefer the term **type deduction**, while others use **type inference**.
+
+For interview purposes, they generally refer to the same concept.
+
+### Things You MUST Remember
+
+-   Type inference allows the compiler to determine a variable's type automatically.
+-   It **reduces boilerplate**, not type safety.
+-   **Type inference is not dynamic typing.**
+-   Once inferred, the variable's type is fixed in statically typed languages.
+-   Type inference improves readability when the type is obvious, but explicit types may still be preferable when they make code easier to understand.
+
+## 9. Type Conversion
+
+### One Sentence Definition
+
+**Type conversion** is the process of changing a value from one data type to another so it can be used in a different context or operation.
+
+### Why Do We Need It?
+
+Type conversion allows values of different types to interact correctly.
+
+Without type conversion, many common programming tasks would either be impossible or require cumbersome manual handling.
+
+### Core Idea
+
+A value can be converted from one data type to another in two primary ways:
+
+#### Implicit Conversion
+
+The language automatically converts the value because the conversion is considered **safe** or **unambiguous**.
+
+Example:
+
+```
+int number = 10;
+double result = number;
+```
+
+The `int` is automatically converted to a `double` because no information is lost.
+
+***
+
+#### Explicit Conversion (Casting)
+
+The programmer requests the conversion because it may lose information or change the meaning of the value.
+
+Example:
+
+```
+double value = 3.14;
+int number = (int)value;
+```
+
+The result is:
+
+```
+3
+```
+
+The fractional part is discarded, so the conversion must be explicit.
+
+### Key Characteristics
+
+-   Converts a value from one type to another.
+-   May occur automatically or require explicit instructions.
+-   Commonly used when different data types interact.
+
+### Advantages
+
+-   Allows different data types to work together.
+-   Reduces unnecessary manual conversions.
+-   Makes arithmetic operations between compatible types possible.
+-   Enables parsing and processing of external data such as user input or files.
+
+### Disadvantages
+
+-   Some conversions may lose information.
+-   Automatic conversions can sometimes produce unexpected results.
+
+### Common Use Cases
+
+-   Converting integers to floating-point numbers for calculations.
+-   Parsing text into numeric values.
+-   Converting numbers into strings for display.
+-   Reading configuration files or JSON data.
+-   Interacting with APIs or databases that use different data types.
+
+### Comparison
+
+| Implicit Conversion | Explicit Conversion (Casting) |
+| --- | --- |
+| Performed automatically | Requested by the programmer |
+| Usually safe | May lose information |
+
+### Things People Often Confuse
+
+##### [_Check Type Inference vs Implicit Conversion_](#type-inference-vs-implicit-conversion)
+
+##### _Type Conversion vs Type Coercion_
+
+These terms are sometimes used interchangeably, but there is a subtle distinction.
+
+-   **Type conversion** is the general process of changing a value from one type to another.
+-   **Type coercion** usually refers to **automatic (implicit)** conversion performed by the language.
+
+##### _Casting vs Parsing_
+
+Both can change a value's type, but they are not the same.
+
+**Casting** converts a value that already exists in memory.
+
+```
+3.14 → 3
+```
+
+**Parsing** interprets text and creates a new value.
+
+```
+"123" → 123
+```
+
+Parsing may fail if the text does not represent a valid value.
+
+### Things You MUST Remember
+
+-   Type conversion changes **the type of a value**, not the variable itself.
+-   There are two main kinds of conversion:
+    -   **Implicit conversion** (automatic)
+    -   **Explicit conversion (casting)** (requested by the programmer)
+-   **Type conversion is not the same as type inference.**
+-   **Casting is not the same as parsing.**
+-   Always be aware of potential data loss or runtime errors when converting between types.
+
+## 10. Null / None / Nil
+
+### One Sentence Definition
+
+**`null`**, **`None`**, and **`nil`** are language-specific values that represent the **absence of a value or object**, indicating that a variable intentionally refers to "nothing."
+
+### Why Do We Need It?
+
+Not every variable always has meaningful data. Languages need a standard way to represent these situations without inventing special placeholder values.
+
+### Core Idea
+
+Although different programming languages use different keywords, they all represent the same general concept:
+
+| Language | Keyword |
+| --- | --- |
+| C#, Java, JavaScript | `null` |
+| Python | `None` |
+| Ruby | `nil` |
+| Swift | `nil` |
+| Kotlin | `null` |
+
+These values indicate that **a variable currently has no meaningful object or value assigned**.
+
+### Key Characteristics
+
+-   Represents the absence of a value or object.
+-   Is **not** the same as zero, an empty string, or `false`.
+-   Commonly used with reference types or nullable types.
+
+### Advantages
+
+-   Clearly represents missing or unavailable data.
+-   Simplifies APIs and function return values.
+-   Makes optional data easier to represent.
+
+### Disadvantages
+
+-   Forgetting to check for `null` can cause runtime errors.
+
+### Common Use Cases
+
+-   Optional user information (e.g., middle name).
+-   Database queries that return no matching record.
+-   Searching collections when no item is found.
+-   Uninitialized object references.
+-   Optional function parameters.
+
+### Comparison
+
+| `null` / `None` / `nil` | Empty Value |
+| --- | --- |
+| Represents "no value" or "no object" | Represents a valid value with no content |
+| Usually indicates absence | Usually indicates an existing value |
+| May require null checking | Can generally be used normally |
+
+Examples:
+
+```
+null      // No object
+
+""        // Empty string
+
+[]        // Empty collection
+
+0         // A valid numeric value
+```
+
+### Things People Often Confuse
+
+##### _`null` vs Uninitialized Variable_
+
+These concepts differ by language.
+
+An **uninitialized variable** has not yet been assigned a value.
+
+A variable containing `null` has **been assigned a value**—that value simply represents "nothing."
+
+For example:
+
+```
+string? name = null;
+```
+
+`name` is initialized, and its value is `null`.
+
+##### _`null` Doesn't Mean "Memory Doesn't Exist"_
+
+A variable holding `null` still exists.
+
+Only the **reference** is missing.
+
+For example:
+
+```
+Person
+ ┌──────────────┐
+ │ name = null  │
+ └──────────────┘
+```
+
+The `Person` object exists.
+
+Its `name` property simply does not reference a string.
+
+### Things You MUST Remember
+
+-   `null`, `None`, and `nil` represent **the absence of a value or object**.
+-   `null` is **not** the same as `0`, `false`, `""`, or an empty collection.
+-   Variables containing `null` should be checked before use to avoid runtime errors.
+-   Modern languages often provide **nullable types**, **optional types**, or **null safety features** to reduce null-related bugs.
 
 ***
 
