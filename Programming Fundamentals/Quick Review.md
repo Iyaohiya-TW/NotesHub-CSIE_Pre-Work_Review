@@ -957,6 +957,29 @@ After inference, the variable behaves exactly as if its type had been written ex
 -   LINQ queries (C#).
 -   Generic types with long or complex names.
 
+For example:
+
+Instead of:
+
+```
+Dictionary<string, List<Employee>> employees =
+    new Dictionary<string, List<Employee>>();
+```
+
+Many modern languages allow:
+
+```
+var employees = new();
+```
+
+### Comparison
+
+| Explicit Typing | Type Inference |
+| --- | --- |
+| Programmer specifies the type | Compiler determines the type |
+
+
+
 ***
 
 > [!INFO]   Navigation tool
