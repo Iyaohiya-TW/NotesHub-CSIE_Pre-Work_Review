@@ -13,7 +13,7 @@
 5.   [Character & String](#5-character--string)
 6.   [Static vs Dynamic Typing](#6-static-vs-dynamic-typing)
 7.   [Strong vs Weak Typing](#7-strong-vs-weak-typing)
-8.   [Type Inference]()
+8.   [Type Inference](#8-type-inference)
 9.   [Type Conversion]()
 10.   [Null / None / Nil]()
 
@@ -897,6 +897,65 @@ Check [**_Dynamic Typing vs Weak Typing_**](#dynamic-typing-vs-weak-typing)
 -   Weak typing provides greater flexibility but increases the risk of unexpected behavior due to implicit type coercion.
 -   **Strong/weak typing** has no direct relation with **static/dynamic typing**.
 -   **Strong typing does not mean "no implicit conversions."** It means implicit conversions are generally limited to those that are safe and unsurprising.
+
+## 8. Type Inference
+
+### One Sentence Definition
+
+**Type inference** is a language feature that automatically determines a variable's data type based on the value assigned to it, allowing the programmer to omit explicit type declarations.
+
+### Why Do We Need It?
+
+Explicitly writing data types for every variable can become repetitive, especially when the type is already obvious from the assigned value. Type inference reduces unnecessary code while preserving type safety in statically typed languages.
+
+### Core Idea
+
+Instead of requiring the programmer to specify the type, the compiler (or interpreter) determines it automatically from the context.
+
+For example, instead of writing:
+
+```
+int age = 20;
+```
+
+a language with type inference may allow:
+
+```
+var age = 20;
+```
+
+The compiler infers that `age` is an `int`.
+
+After inference, the variable behaves exactly as if its type had been written explicitly.
+
+> **Important:** Type inference determines the type **once** when the variable is declared. It does **not** mean the variable can later change to another type.
+
+
+### Key Characteristics
+
+-   Reduces redundant type declarations.
+-   Usually performed during compilation in statically typed languages.
+-   Does **not** remove the variable's type—it simply lets the compiler determine it.
+
+### Advantages
+
+-   Faster to write.
+-   Cleaner and more readable source code.
+-   Preserves compile-time type checking in statically typed languages.
+-   Makes refactoring easier because repeated type names are reduced.
+
+### Disadvantages
+
+-   The inferred type may not be immediately obvious to readers.
+-   Beginners may misunderstand what type is actually being inferred.
+
+### Common Use Cases
+
+-   Local variables with obvious types.
+-   Object creation.
+-   Loop variables.
+-   LINQ queries (C#).
+-   Generic types with long or complex names.
 
 ***
 
