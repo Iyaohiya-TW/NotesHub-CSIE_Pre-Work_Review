@@ -73,10 +73,10 @@
 6. [Events (C#)](#6-events-c)
 
 ⏬ [To bottom](#-bottom-link-anchor) (or use Ctrl + End)
+
 ***
 
 # Variables
-
 
 ## 1. Variables
 ### One Sentence Definition
